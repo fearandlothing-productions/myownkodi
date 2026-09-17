@@ -1,6 +1,12 @@
-![MyownKodi Android device, data, and command-control flow](docs/resources/myownkodi-android-hero.webp)
+<p align="center">
+  <img src="docs/resources/myownkodi-k4a-mark.png" width="320" alt="K4A logo">
+</p>
+
+![K4A on Android: a TV, phone and Android-focused media centre](docs/resources/myownkodi-k4a-android-hero.webp)
 
 # MyownKodi
+
+> K4A · Kodi4Android
 
 An Android-first development fork of [Kodi](https://kodi.tv/), focused on making a powerful media center easier to manage, back up, and control on modern Android devices.
 
@@ -20,6 +26,12 @@ Android has made `Android/data` increasingly difficult to access with ordinary f
 MyownKodi explores Android-specific improvements while keeping Kodi's media-center experience at its core. The aim is practical ownership of the device and its media-center data, with every privileged integration opt-in and clearly documented.
 
 ## Android focus
+
+### Android TV
+
+K4A includes a distinct launcher icon and Leanback banner, so it is easy to recognise alongside the official Kodi app on Android TV.
+
+![Kodi4Android Android TV launcher banner](docs/resources/myownkodi-k4a-android-tv-banner.webp)
 
 ### User data in Documents
 
