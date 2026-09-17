@@ -1,4 +1,4 @@
-![MyownKodi Android media center](docs/resources/myownkodi-android-hero.webp)
+![MyownKodi Android device, data, and command-control flow](docs/resources/myownkodi-android-hero.webp)
 
 # MyownKodi
 
