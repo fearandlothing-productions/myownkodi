@@ -66,7 +66,7 @@ public class Splash extends Activity
 
   // User data tree, relative to the root of shared/primary external storage.
   // Must stay in sync with KODI_DATA_SUBDIR in xbmc/platform/android/activity/XBMCApp.cpp.
-  private static final String XBMC_DATA_SUBDIR = "Documents/kodi4android";
+  private static final String XBMC_DATA_SUBDIR = "Documents/Kodi4Android/de.kodi4.android";
 
   // Marker file in the new user data tree; its presence means the one-time
   // migration from the app-private external directory has already run.

@@ -130,7 +130,7 @@ namespace
 // shared/primary external storage. Kept in a user-visible folder on purpose so
 // that it is reachable with any file manager and survives an app uninstall,
 // instead of living in the app-private Android/data sandbox.
-constexpr const char* KODI_DATA_SUBDIR = "Documents/kodi4android";
+constexpr const char* KODI_DATA_SUBDIR = "Documents/Kodi4Android/de.kodi4.android";
 } // namespace
 
 std::shared_ptr<CNativeWindow> CNativeWindow::CreateFromSurface(CJNISurfaceHolder holder)
@@ -1586,7 +1586,7 @@ void CXBMCApp::SetupEnv()
 
   // User data location. Priority:
   //   1. explicit override via the "xbmc.data" system property
-  //   2. <shared storage>/Documents/kodi4android   (the default for this fork)
+  //   2. <shared storage>/Documents/Kodi4Android/de.kodi4.android   (the default for this fork)
   //   3. app-private *internal* storage as a last resort
   // Note: getExternalFilesDir() is deliberately NOT used any more, as it points
   // into Android/data/<package>/files, which is hidden from the user and wiped
